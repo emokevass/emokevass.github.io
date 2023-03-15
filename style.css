@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  width: 1500px;
+}
+
+header {
+  font-family: 'Abril Fatface';
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+img {
+  width: 100%;
+  position: relative;
+}
+
+.Myname {
+  font-size: 36px;
+  margin: 0;
+  position: absolute;
+  bottom: 120px;
+  left: 280px;
+}
+
+.Anakin {
+  font-size: 75px;
+  margin: 0;
+  position: absolute;
+  bottom: 30px;
+  left: 280px;
+}
+
+p {
+  margin: 30px 400px 20px 440px;
+  font-family: 'Josefin Sans';
+  line-height: 25px;
+}
+
+.ElsoLista {
+  margin-left: 440px;
+  font-family: 'Josefin Sans';
+  list-style-type: square;
+  line-height: 25px;
+}
+
+.bq {
+  color: white;
+  background: #222;
+  font-family: 'Abril Fatface';
+  font-size: 36px;
+  width: 40%;
+  margin: 50px auto;
+  text-align: center;
+  padding: 50px 50px;
+  position: relative;
+}
+
+  blockquote::before {
+  content: '”';
+  font-size: 80px;
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  transform: rotate(180deg);
+}
+.SecondChapter {
+  margin: 50px 400px 0px 440px;
+}
+
+.capital {
+  text-transform: uppercase;
+  font-family: 'Josefin Sans';
+  margin: 20px 0;
+}
+
+.SecondChapter p {
+  margin: 0 0 30px 0;
+}
+
+.SecondChapter li {
+  font-family: 'Josefin Sans';
+  margin: 0 0 10px 0;
+}
+
+h3 {
+  font-family: "Merriweather";
+  font-size: 15px;
+  font-style: italic;
+   margin-top: 0;
+}
+h2 {
+  font-family: 'Josefin Sans';
+  padding: 20px 0 10px 0;
+  margin-bottom: 0;
+}
+
+.line {
+  border-bottom: 4px solid #222;
+  display: block;
+  width: 660px;
+  margin: 40px auto;
+}
